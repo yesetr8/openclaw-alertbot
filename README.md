@@ -2,6 +2,8 @@
 
 > Telegram-based alert routing for OpenClaw / Clawmetry incidents
 
+<p><strong>Quick links:</strong> <a href="#english">🇺🇸 English quick link</a></p>
+
 ![OpenClaw AlertBot Infographic](docs/images/alertbot-infographic.png)
 
 ## 🇰🇷 한국어
@@ -81,6 +83,7 @@ OpenClaw/Clawmetry에서 발생하는 장애·경고를 **텔레그램 알림 �
 
 ---
 
+<a id="english"></a>
 ## 🇺🇸 English
 
 ### One-line Summary
