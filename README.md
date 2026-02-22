@@ -2,6 +2,8 @@
 
 > Telegram-based alert routing for OpenClaw / Clawmetry incidents
 
+![OpenClaw AlertBot Infographic](docs/images/alertbot-infographic.png)
+
 ## 🇰🇷 한국어
 
 ### 한 줄 소개
