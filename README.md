@@ -12,6 +12,10 @@ OpenClaw 운영 환경에서 발생하는 장애/경고 신호를 체계적으�
 - Cron 실행 오류 라우팅
 - 하루 2회 이상 징후 다이제스트
 
+### 용어 정의 (P1 / P2)
+- **P1 (Priority 1)**: 서비스 중단, 치명 오류처럼 **즉시 대응이 필요한** 장애 등급
+- **P2 (Priority 2)**: 반복/간헐 오류처럼 서비스 전체 중단은 아니지만 **추적·개선이 필요한** 경고 등급
+
 ### 핵심 구성요소
 - `ALERTS_POLICY.md` — 알림 정책(P1/P2/쿨다운/복구 규칙)
 - `scripts/clawmetry_monitor.py` — Clawmetry 모니터링 스크립트
@@ -58,6 +62,10 @@ and routing alerts through a dedicated alert channel so your **primary user conv
 - P2 hourly summary alerts (repeated/intermittent issues)
 - Cron error routing
 - Twice-daily anomaly digest
+
+### Term Definitions (P1 / P2)
+- **P1 (Priority 1)**: Incident level for failures that require **immediate response**, such as service downtime or critical errors
+- **P2 (Priority 2)**: Warning level for **track-and-improve** issues, such as repeated/intermittent errors without full service outage
 
 ### Core Components
 - `ALERTS_POLICY.md` — alert policy (P1/P2/cooldown/recovery)
