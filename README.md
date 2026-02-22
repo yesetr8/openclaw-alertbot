@@ -1,4 +1,4 @@
-# OpenClaw AlertBot — GitHub Release Kit (Draft)
+# OpenClaw AlertBot
 
 ## 🇰🇷 한국어
 
