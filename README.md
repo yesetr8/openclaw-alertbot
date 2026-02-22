@@ -14,8 +14,8 @@ OpenClaw 운영 중 발생하는 장애를 **메인/인박스 대화창 오염 �
 - `ALERTS_POLICY.md` — 알림 정책(P1/P2/쿨다운/복구 규칙)
 - `scripts/clawmetry_monitor.py` — Clawmetry P1/P2 감시 엔진
 - `scripts/alert_log_digest.py` — 12h 이상 징후 요약기(09:30/21:30)
-- `memory/clawmetry-monitor-state.json` — 상태 저장
-- `memory/cron-alert-router-state.json` — 라우팅 상태 저장
+- `state/clawmetry-monitor-state.json` — 상태 저장 (런타임 생성)
+- `state/cron-alert-router-state.json` — 라우팅 상태 저장 (런타임 생성)
 
 ### 최소 설치/실행 절차
 1. 정책 파일 복사: `ALERTS_POLICY.md`
@@ -53,8 +53,8 @@ This repository provides a reproducible OpenClaw AlertBot observability setup, k
 - `ALERTS_POLICY.md` — alert policy (P1/P2/cooldown/recovery)
 - `scripts/clawmetry_monitor.py` — Clawmetry P1/P2 monitor
 - `scripts/alert_log_digest.py` — 12-hour anomaly digest generator (09:30/21:30)
-- `memory/clawmetry-monitor-state.json` — monitor state
-- `memory/cron-alert-router-state.json` — router state
+- `state/clawmetry-monitor-state.json` — monitor state (runtime-generated)
+- `state/cron-alert-router-state.json` — router state (runtime-generated)
 
 ### Minimum Setup / Run Steps
 1. Copy policy file: `ALERTS_POLICY.md`
@@ -76,3 +76,11 @@ This repository provides a reproducible OpenClaw AlertBot observability setup, k
 
 ### Output Promotion Rule
 - Move to `30-output` only after publication URL or GitHub release tag is confirmed.
+
+### Third-Party Attribution
+- This project includes adapted components from **clawmetry** by Vivek Chand:
+  - Source: https://github.com/vivekchand/clawmetry
+  - License: MIT
+- See:
+  - `THIRD_PARTY_NOTICES.md`
+  - `licenses/UPSTREAM_CLAWMETRY_MIT_LICENSE.txt`

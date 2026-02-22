@@ -21,3 +21,4 @@
 - [ ] main 브랜치 태깅 준비
 - [ ] 릴리즈 노트 작성
 - [ ] 발행용 설명 콘텐츠 초안 작성
+- [ ] Third-party 출처/라이선스 고지 확인 (`THIRD_PARTY_NOTICES.md`, `licenses/*`)

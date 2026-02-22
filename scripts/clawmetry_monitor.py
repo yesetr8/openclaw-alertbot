@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Derived from clawmetry (https://github.com/vivekchand/clawmetry), adapted for OpenClaw AlertBot.
+# Upstream license: MIT (see ../THIRD_PARTY_NOTICES.md and ../licenses/UPSTREAM_CLAWMETRY_MIT_LICENSE.txt)
 import argparse
 import json
 import os
